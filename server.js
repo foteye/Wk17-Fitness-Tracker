@@ -10,12 +10,12 @@ app.use(express.urlencoded({
 }));
 app.use(express.static("public"));
 
-const MONGOLAB_URI = process.env.MONGOLAB_URI || "mongodb://localhost/workout";
-mongoose.connect(MONGOLAB_URI, function (err, res) {
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+mongoose.connect(MONGODB_URI, function (err, res) {
     if (err) {
-        console.log('ERROR connecting to: ' + MONGOLAB_URI + '. ' + err);
+        console.log('ERROR connecting to: ' + MONGODB_URI + '. ' + err);
     } else {
-        console.log('Succeeded connected to: ' + MONGOLAB_URI);
+        console.log('Succeeded connected to: ' + MONGODB_URI);
     }
 });
 
