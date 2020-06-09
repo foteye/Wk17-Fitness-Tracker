@@ -15,11 +15,12 @@ The user should be able to:
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
 ### Website Demo
-![TrackerView](assets/img/demo.png "Tracker View")
+![TrackerView](img/demo.png "Tracker View")
 
 ### Lessons Learned:
 
  * Dont get food poisoning
  * Still dont understand where the mongo data is _stored_? Is it just in my server's ram?
  * The code in the public folder was convoluted and hard to understand. Made troubleshooting incredibly difficult
- * Didnt get the summary page working with duration properly. Can't work out the provided code and where its going wrong
+ * The code in the public folder was also not the way I would have labelled, named, organised (etc) things on the page. This made it harder again, as I didn't expect my routes to work in that way.
+ * Didnt get the summary page working with duration properly. Can't work out the provided code and where its going wrong.
